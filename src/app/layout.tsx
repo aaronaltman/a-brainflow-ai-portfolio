@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="p-10">CHAT BOT AI</header>
+        <header className="p-10 text-3xl">CHAT BOT AI</header>
         {children}
       </body>
     </html>
